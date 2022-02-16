@@ -1,13 +1,31 @@
 import { useRef } from 'react';
 import { motion } from 'framer-motion';
-import list from 'src/assets/food.json';
-import styled from 'src/themes/slider.module.scss';
+import foods from 'src/assets/food.json';
+import { TFood } from 'src/types';
+
+const Card = ({ name, image }: TFood) => {
+  return (
+    <motion.li
+      className="w-72 h-96 rounded-3xl shadow-lg shadow-gray-500 overflow-hidden"
+      key={name}
+    >
+      <img
+        className="w-full h-full object-cover pointer-events-none"
+        src={image}
+        alt={name}
+      />
+    </motion.li>
+  );
+};
 
 const Slider = () => {
   const container = useRef<HTMLDivElement | null>(null);
   const slider = useRef<HTMLUListElement | null>(null);
 
-  /* Manual Setting, FIXBUG:slider do not back to original position before container resize
+  /* 
+    * Manual Setting 
+    * Version : framer-motion@4.1.17
+    * FIXBUG : slider do not back to original position before container resize
 
   const [left, setLeft] = useState(0);
 
@@ -25,18 +43,16 @@ const Slider = () => {
   */
 
   return (
-    <div className={styled['app']}>
-      <div className={styled['slider-container']} ref={container}>
+    <div className="w-screen h-screen flex justify-center items-center">
+      <div className="overflow-hidden basis-8/12" ref={container}>
         <motion.ul
-          className={styled['slider']}
+          className="p-10 flex w-max gap-10 cursor-grab active:cursor-grabbing"
           ref={slider}
           drag="x"
           dragConstraints={container}
         >
-          {list.map((ele) => (
-            <motion.li className={styled['slider-item']} key={ele.name}>
-              <img src={ele.image} alt={ele.name} />
-            </motion.li>
+          {foods.map((ele) => (
+            <Card key={ele.name} {...ele} />
           ))}
         </motion.ul>
       </div>
