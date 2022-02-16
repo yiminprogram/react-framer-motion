@@ -28,7 +28,7 @@ const Card = ({ name, image }: TFood) => {
   return (
     <motion.li layout>
       <article className="w-full h-full rounded-md overflow-hidden shadow shadow-gray-400">
-        <img className="w-full h-72 object-cover" src={image} />
+        <img className="w-full h-72 object-cover" src={image} alt="error" />
         <h2 className="p-2">{name}</h2>
       </article>
     </motion.li>
@@ -42,7 +42,6 @@ const TypeList = () => {
 
   useEffect(() => {
     setData(foods);
-    setFilterList(foods);
   }, []);
 
   useEffect(() => {
@@ -52,7 +51,7 @@ const TypeList = () => {
       const value = [...data].sort((a, b) => b[current] - a[current]);
       setFilterList(value);
     }
-  }, [current]);
+  }, [current, data]);
 
   const changeType = (type: TSort) => {
     console.log(type);
