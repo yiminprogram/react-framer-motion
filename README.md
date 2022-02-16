@@ -1,5 +1,5 @@
 # react framer motion
 
-[website](https://yiminprogram.github.io/2022-portfolio/#/)
+[website](https://yiminprogram.github.io/react-framer-motion/#/)
 
-1. [Slider](https://yiminprogram.github.io/2022-portfolio/#/slider)
+1. [Slider](https://yiminprogram.github.io/react-framer-motion/#/slider)
