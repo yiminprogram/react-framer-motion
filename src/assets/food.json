@@ -1,77 +1,92 @@
 [
   {
     "name": "apple1",
-    "type": "apple",
+    "stars": 3,
+    "price": 100,
     "image": "https://images.unsplash.com/photo-1576179635662-9d1983e97e1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80"
   },
   {
     "name": "apple2",
-    "type": "apple",
+    "stars": 5,
+    "price": 200,
     "image": "https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2148&q=80"
   },
   {
     "name": "apple3",
-    "type": "apple",
+    "stars": 2,
+    "price": 150,
     "image": "https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80"
   },
   {
     "name": "ice cream1",
-    "type": "ice cream",
+    "stars": 10,
+    "price": 50,
     "image": "https://images.unsplash.com/photo-1562790879-dfde82829db0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1364&q=80"
   },
   {
     "name": "ice cream2",
-    "type": "ice cream",
+    "stars": 7,
+    "price": 60,
     "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=927&q=80"
   },
   {
     "name": "ice cream3",
-    "type": "ice cream",
+    "stars": 8,
+    "price": 500,
     "image": "https://images.unsplash.com/photo-1566746878854-d4f4fbd11941?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2376&q=80"
   },
   {
     "name": "burger1",
-    "type": "burger",
+    "stars": 5,
+    "price": 350,
     "image": "https://images.unsplash.com/photo-1571091655789-405eb7a3a3a8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2344&q=80"
   },
   {
     "name": "burger2",
-    "type": "burger",
+    "stars": 3,
+    "price": 250,
     "image": "https://images.unsplash.com/photo-1513185158878-8d8c2a2a3da3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80"
   },
   {
     "name": "burger3",
-    "type": "burger",
+    "stars": 9,
+    "price": 700,
     "image": "https://images.unsplash.com/photo-1586816001966-79b736744398?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80"
   },
   {
     "name": "drink1",
-    "type": "drink",
+    "stars": 4,
+    "price": 10,
     "image": "https://images.unsplash.com/photo-1623934397237-ce68cb0285b3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80"
   },
   {
     "name": "drink2",
-    "type": "drink",
+    "stars": 2,
+    "price": 30,
     "image": "https://images.unsplash.com/photo-1579954115545-a95591f28bfc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80"
   },
   {
     "name": "drink3",
-    "type": "drink",
+    "stars": 7,
+    "price": 900,
     "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2757&q=80"
   },
   {
     "name": "cake1",
-    "type": "cake",
+    "stars": 8,
+    "price": 1000,
     "image": "https://images.unsplash.com/photo-1542826438-bd32f43d626f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2792&q=80"
   },
   {
     "name": "cake2",
-    "type": "cake",
+    "stars": 2,
+    "price": 25,
     "image": "https://images.unsplash.com/photo-1579306194872-64d3b7bac4c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2234&q=80"
   },
   {
     "name": "cake3",
-    "type": "cake",
+    "stars": 4,
+    "price": 75,
     "image": "https://images.unsplash.com/photo-1579356094148-9b74dab60f5b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80"
   }
 ]
