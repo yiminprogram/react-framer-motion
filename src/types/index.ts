@@ -1,5 +1,6 @@
 export type TFood = {
   name: string;
-  type: string;
+  stars: number;
+  price: number;
   image: string;
 };

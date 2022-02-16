@@ -2,5 +2,9 @@
   {
     "name": "Slider",
     "link": "slider"
+  },
+  {
+    "name": "Type List",
+    "link": "type-list"
   }
 ]
