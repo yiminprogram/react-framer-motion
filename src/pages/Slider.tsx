@@ -6,7 +6,7 @@ import { TFood } from 'src/types';
 const Card = ({ name, image }: TFood) => {
   return (
     <motion.li
-      className="w-72 h-96 rounded-3xl shadow-lg shadow-gray-500 overflow-hidden"
+      className="w-72 h-96 rounded-3xl shadow-md shadow-gray-600 overflow-hidden"
       key={name}
     >
       <img
@@ -43,7 +43,7 @@ const Slider = () => {
   */
 
   return (
-    <div className="w-screen h-screen flex justify-center items-center">
+    <div className="w-screen h-screen flex justify-center items-center bg-gradient-to-br from-rose-600 to-cyan-600">
       <div className="overflow-hidden basis-8/12" ref={container}>
         <motion.ul
           className="p-10 flex w-max gap-10 cursor-grab active:cursor-grabbing"

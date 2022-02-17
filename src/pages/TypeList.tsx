@@ -27,9 +27,9 @@ const Button = ({
 const Card = ({ name, image }: TFood) => {
   return (
     <motion.li layout>
-      <article className="w-full h-full rounded-md overflow-hidden shadow shadow-gray-400">
+      <article className="w-full h-full bg-white rounded-lg overflow-hidden shadow-md shadow-neutral-500">
         <img className="w-full h-72 object-cover" src={image} alt="error" />
-        <h2 className="p-2">{name}</h2>
+        <h2 className="p-3">{name}</h2>
       </article>
     </motion.li>
   );
@@ -59,21 +59,23 @@ const TypeList = () => {
   };
 
   return (
-    <div className="max-w-7xl mx-auto p-6">
-      <div className="pb-8 flex justify-center gap-5">
-        {sortItem.map((ele) => (
-          <Button
-            key={ele}
-            type={ele}
-            changeType={() => changeType(ele as TSort)}
-          />
-        ))}
+    <div className="min-h-screen bg-gradient-to-br from-yellow-500 to-fuchsia-600">
+      <div className="max-w-7xl mx-auto p-6 ">
+        <div className="pb-8 flex justify-center space-x-3">
+          {sortItem.map((ele) => (
+            <Button
+              key={ele}
+              type={ele}
+              changeType={() => changeType(ele as TSort)}
+            />
+          ))}
+        </div>
+        <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+          {filterList.map((ele) => (
+            <Card key={ele.name} {...ele} />
+          ))}
+        </ul>
       </div>
-      <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-        {filterList.map((ele) => (
-          <Card key={ele.name} {...ele} />
-        ))}
-      </ul>
     </div>
   );
 };

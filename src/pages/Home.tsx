@@ -3,15 +3,15 @@ import list from 'src/assets/data.json';
 
 const Home = () => {
   return (
-    <div className="p-3">
-      <h1 className="text-3xl text-indigo-700 font-semibold text-center mb-5">
-        Home Page
+    <div className="px-2 py-6 min-h-screen bg-gradient-to-br from-sky-600 to-emerald-600">
+      <h1 className="text-3xl text-white font-semibold text-center mb-6">
+        Framer Motion Components
       </h1>
-      <ul className="max-w-4xl mx-auto grid grid-cols-3 gap-3">
+      <ul className="max-w-5xl mx-auto py-6 grid grid-cols-1 gap-6 sm:grid-cols-3">
         {list.map((ele) => (
           <li key={ele.name}>
             <Link
-              className="block border border-gray-300 text-gray-700 p-3 rounded-sm hover:bg-gray-100"
+              className="block text-lg font-bold border border-white text-white p-5 rounded-lg hover:bg-white hover:text-gray-700"
               to={ele.link}
             >
               {ele.name}
