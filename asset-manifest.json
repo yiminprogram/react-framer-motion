@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react-framer-motion/static/css/main.f56ace34.css",
-    "main.js": "/react-framer-motion/static/js/main.8fe328f8.js",
+    "main.css": "/react-framer-motion/static/css/main.9fb42d15.css",
+    "main.js": "/react-framer-motion/static/js/main.7e8bee40.js",
     "index.html": "/react-framer-motion/index.html",
-    "main.f56ace34.css.map": "/react-framer-motion/static/css/main.f56ace34.css.map",
-    "main.8fe328f8.js.map": "/react-framer-motion/static/js/main.8fe328f8.js.map"
+    "main.9fb42d15.css.map": "/react-framer-motion/static/css/main.9fb42d15.css.map",
+    "main.7e8bee40.js.map": "/react-framer-motion/static/js/main.7e8bee40.js.map"
   },
   "entrypoints": [
-    "static/css/main.f56ace34.css",
-    "static/js/main.8fe328f8.js"
+    "static/css/main.9fb42d15.css",
+    "static/js/main.7e8bee40.js"
   ]
 }
