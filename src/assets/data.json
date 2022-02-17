@@ -10,5 +10,9 @@
   {
     "name": "Tabs",
     "link": "tabs"
+  },
+  {
+    "name": "List Sort",
+    "link": "list-sort"
   }
 ]
