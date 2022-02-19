@@ -18,5 +18,9 @@
   {
     "name": "Notification",
     "link": "notification"
+  },
+  {
+    "name": "Card Info",
+    "link": "card-info"
   }
 ]

@@ -7,6 +7,9 @@ const Home = () => {
       <h1 className="text-3xl text-white font-semibold text-center mb-6">
         Framer Motion Components
       </h1>
+      <p className="text-xl text-white text-center mb-6">
+        Framer Motion Version : 6.2.6
+      </p>
       <ul className="max-w-5xl mx-auto py-6 grid grid-cols-1 gap-6 sm:grid-cols-3">
         {list.map((ele) => (
           <li key={ele.name}>
