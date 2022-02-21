@@ -8,3 +8,4 @@
 4. [List Sort](https://yiminprogram.github.io/react-framer-motion/#/list-sort)
 5. [Notification](https://yiminprogram.github.io/react-framer-motion/#/notification)
 6. [Card Info](https://yiminprogram.github.io/react-framer-motion/#/card-info)
+7. [Drag Sort](https://yiminprogram.github.io/react-framer-motion/#/drag-sort)
