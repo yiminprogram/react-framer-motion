@@ -22,5 +22,9 @@
   {
     "name": "Card Info",
     "link": "card-info"
+  },
+  {
+    "name": "Drag Sort",
+    "link": "drag-sort"
   }
 ]

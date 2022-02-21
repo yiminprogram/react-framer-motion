@@ -8,7 +8,7 @@ const Home = () => {
         Framer Motion Components
       </h1>
       <p className="text-xl text-white text-center mb-6">
-        Framer Motion Version : 6.2.6
+        Framer Motion Version : 6.2.6, No Responsive Web Design(RWD)
       </p>
       <ul className="max-w-5xl mx-auto py-6 grid grid-cols-1 gap-6 sm:grid-cols-3">
         {list.map((ele) => (
