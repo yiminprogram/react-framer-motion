@@ -100,7 +100,7 @@ const IconImage = ({ icon, idx, parent }: TIconProps) => {
       animate={animation}
       transition={{ delay: 3 + idx * 0.3 }}
       dragConstraints={parent}
-      className="inline-block"
+      className="inline-block pointer-events-auto"
     >
       <h3 className="text-6xl cursor-grab active:cursor-grabbing">{icon}</h3>
     </motion.div>
@@ -123,10 +123,10 @@ const iconImage = [
 const Home = () => {
   const container = useRef<HTMLDivElement>(null);
   return (
-    <div className="relative min-h-screen bg-gradient-to-br from-sky-600 to-emerald-600 grid grid-cols-1 lg:grid-cols-2 z-0">
+    <div className="min-h-screen bg-gradient-to-br from-sky-600 to-emerald-600 grid grid-cols-1 lg:grid-cols-2">
       <motion.div
         ref={container}
-        className="absolute top-0 left-0 w-full h-full overflow-hidden"
+        className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none"
       >
         {iconImage.map((ele) => (
           <IconImage
