@@ -122,6 +122,7 @@ const DragSort = () => {
     setCurrent(food);
   }, []);
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     if (!type) return;
     if (!current) return;
