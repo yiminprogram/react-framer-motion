@@ -26,5 +26,9 @@
   {
     "name": "Drag Sort",
     "link": "drag-sort"
+  },
+  {
+    "name": "Horizontal Scroll",
+    "link": "horizontal-scroll"
   }
 ]

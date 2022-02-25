@@ -7,6 +7,7 @@ import ListSort from './pages/ListSort';
 import Notification from './pages/Notification';
 import CardInfo from './pages/CardInfo';
 import DragSort from './pages/DragSort';
+import HorizontalScroll from './pages/HorizontalScroll';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Route path="notification" element={<Notification />} />
       <Route path="card-info" element={<CardInfo />} />
       <Route path="drag-sort" element={<DragSort />} />
+      <Route path="horizontal-scroll" element={<HorizontalScroll />} />
     </Routes>
   );
 };

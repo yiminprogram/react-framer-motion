@@ -192,7 +192,7 @@ const Home = () => {
             <motion.li
               key={ele.name}
               variants={cardItem}
-              className="text-2xl text-white font-bold bg-[#ffffff33] hover:bg-[#ffffff55] rounded-md"
+              className="text-xl text-white font-bold bg-[#ffffff33] hover:bg-[#ffffff55] rounded-md"
             >
               <Link className="inline-block w-full h-full p-6" to={ele.link}>
                 {ele.name}
