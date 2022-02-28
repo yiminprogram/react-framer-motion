@@ -8,6 +8,7 @@ import Notification from './pages/Notification';
 import CardInfo from './pages/CardInfo';
 import DragSort from './pages/DragSort';
 import HorizontalScroll from './pages/HorizontalScroll';
+import Carousel from './pages/Carousel';
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
       <Route path="card-info" element={<CardInfo />} />
       <Route path="drag-sort" element={<DragSort />} />
       <Route path="horizontal-scroll" element={<HorizontalScroll />} />
+      <Route path="carousel" element={<Carousel />} />
     </Routes>
   );
 };

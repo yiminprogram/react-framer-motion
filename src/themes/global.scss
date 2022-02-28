@@ -5,3 +5,9 @@
 body {
   font-family: 'Menlo', 'Consolas';
 }
+
+@layer components {
+  .my-bg-gradient {
+    @apply bg-gradient-to-br from-violet-600 to-pink-600;
+  }
+}
