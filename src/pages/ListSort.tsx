@@ -52,7 +52,7 @@ const ListSort = () => {
   const container = useRef<HTMLUListElement | null>(null);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-sky-500 to-violet-500 flex justify-center items-center">
+    <div className="min-h-screen my-bg-gradient flex justify-center items-center">
       <Reorder.Group
         className="p-3 basis-[500px]"
         axis="y"

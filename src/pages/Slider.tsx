@@ -43,7 +43,7 @@ const Slider = () => {
   */
 
   return (
-    <div className="w-screen h-screen flex justify-center items-center bg-gradient-to-br from-rose-600 to-cyan-600">
+    <div className="w-screen h-screen flex justify-center items-center my-bg-gradient">
       <div className="overflow-hidden basis-8/12" ref={container}>
         <motion.ul
           className="p-10 flex w-max gap-10 cursor-grab active:cursor-grabbing"

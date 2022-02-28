@@ -123,7 +123,7 @@ const iconImage = [
 const Home = () => {
   const container = useRef<HTMLDivElement>(null);
   return (
-    <div className="min-h-screen bg-gradient-to-br from-sky-600 to-emerald-600 grid grid-cols-1 lg:grid-cols-2">
+    <div className="min-h-screen my-bg-gradient grid grid-cols-1 lg:grid-cols-2">
       <motion.div
         ref={container}
         className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none"

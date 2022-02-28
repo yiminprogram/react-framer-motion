@@ -100,7 +100,7 @@ const CardInfo = () => {
   }, []);
 
   return (
-    <div className="h-screen bg-gradient-to-br from-rose-600 to-orange-300 flex justify-center items-center overflow-hidden">
+    <div className="h-screen my-bg-gradient flex justify-center items-center overflow-hidden">
       <LayoutGroup>
         <motion.ul layout className="basis-[960px] grid grid-cols-3 gap-6">
           {list.map((ele) => (

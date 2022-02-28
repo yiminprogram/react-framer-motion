@@ -48,7 +48,7 @@ const Tabs = () => {
   const currentTab = navList.find((ele) => ele.id === current);
 
   return (
-    <div className="w-screen h-screen flex justify-center items-center bg-gradient-to-r from-violet-600 to-fuchsia-600">
+    <div className="w-screen h-screen flex justify-center items-center my-bg-gradient">
       <div className="basis-[500px] bg-white shadow-lg shadow-gray-600 rounded-lg overflow-hidden">
         <nav>
           <ul className="flex justify-around border-b">

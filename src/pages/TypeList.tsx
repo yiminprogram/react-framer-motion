@@ -16,7 +16,7 @@ const Button = ({
   return (
     <button
       onClick={changeType}
-      className="py-3 px-6 bg-indigo-600 text-white rounded hover:bg-indigo-500"
+      className="py-3 px-6 bg-cyan-600 text-white rounded hover:bg-indigo-500"
       key={type}
     >
       {type}
@@ -59,7 +59,7 @@ const TypeList = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-yellow-500 to-fuchsia-600">
+    <div className="min-h-screen my-bg-gradient">
       <div className="max-w-7xl mx-auto p-6 ">
         <div className="pb-8 flex justify-center space-x-3">
           {sortItem.map((ele) => (

@@ -86,7 +86,7 @@ const Notification = () => {
   );
 
   return (
-    <div className="relative flex justify-center items-center min-h-screen bg-gradient-to-br from-sky-600 to-purple-600">
+    <div className="relative flex justify-center items-center min-h-screen my-bg-gradient">
       <div className="flex flex-col p-10 space-y-5 pr-[500px]">
         <button
           onClick={() => addNotification({ status: true, time: new Date() })}
@@ -96,7 +96,7 @@ const Notification = () => {
         </button>
         <button
           onClick={() => addNotification({ status: false, time: new Date() })}
-          className="bg-red-600 text-3xl font-bold p-5 rounded-md text-white hover:bg-red-700 active:bg-red-600 shadow-md"
+          className="bg-yellow-500 text-3xl font-bold p-5 rounded-md text-white hover:bg-yellow-600 active:bg-yellow-500 shadow-md"
         >
           Add Warning Notification
         </button>

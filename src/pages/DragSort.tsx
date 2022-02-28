@@ -145,7 +145,7 @@ const DragSort = () => {
   }, [type, current]);
 
   return (
-    <div className="w-screen h-screen bg-gradient-to-br from-blue-700 to-fuchsia-700 overflow-hidden">
+    <div className="w-screen h-screen my-bg-gradient overflow-hidden">
       <div className="h-[70%] grid grid-cols-3 px-6 pt-6 gap-6">
         <CardContainer type="dessert" getType={getType} list={desserts} />
         <CardContainer type="drink" getType={getType} list={drinks} />
